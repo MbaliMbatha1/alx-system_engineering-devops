@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#server-01 logins
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
